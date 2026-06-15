@@ -1,0 +1,6 @@
+#program to Rotate array right.
+arr = [10, 20, 30, 40, 50]
+
+arr = arr[-1:] + arr[:-1]
+
+print("Right Rotated Array:", arr)
